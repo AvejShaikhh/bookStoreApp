@@ -7,8 +7,8 @@ function Banner() {
     <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className=" order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-32">
         <div className="space-y-12">
-        <h1 className="text-4xl font-bold">Hello...Welcomes here to learn something <span className="text-pink-500">new everyday!!!</span></h1>
-        <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quidem sint est consequatur quibusdam soluta mollitia. Laboriosam, facilis commodi voluptates aliquam totam quisquam </p>
+        <h1 className="text-4xl font-bold">Hello...Welcomes here to learn something <span className="text-pink-500">New Everyday!!!</span></h1>
+        <p className="text-xl">An online "BookStore" app provides variety of books for users, with which users can easily purchase their favourite kind of books. Read books because 'Their is no friend as loyal as a book!' </p>
         <label className="input input-bordered flex items-center gap-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ function Banner() {
                 <input type="text" className="grow" placeholder="Email" />
             </label>
         </div>
-        <button className="btn btn-secondary mt-6">Secondary</button> 
+        <button className="btn btn-secondary mt-6">Get Started</button> 
         </div>
         <div className=" order-1 w-full md:w-1/2">
          <img src={banner} className="w-92 h-92" alt="" />
